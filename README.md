@@ -1,2 +1,2 @@
-# journal-website
+# Journal-website
 html and css journal website
