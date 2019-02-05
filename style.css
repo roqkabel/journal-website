@@ -1,0 +1,256 @@
+/* Imported Google Links Fonts   */
+@import url('https://fonts.googleapis.com/css?family=Charmonman|Pathway+Gothic+One:400,500|Slabo+27px&subset=greek');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+
+
+
+:root {
+  --bg-color: hsl(90, 5%, 50%);
+  --title-font : 'Charmonman', cursive;
+  --title-color: hsl(225, 7%, 53%);
+  --body-font: 'Alegreya Sans', sans-serif;
+  --heading-font: 'Pathway Gothic One', sans-serif;
+  --b-quote-font: 'Barlow Condensed', sans-serif;
+  --author-font: 'Satisfy', cursive;
+}
+
+
+
+html,
+body {
+/*   font-family: "Trebuchet MS", Helvetica, sans-serif; */
+  font-family: var(--body-font);
+  text-align: center;
+/*   min-width: 260px; */
+   min-width: 0%;
+
+  color: white;
+}
+#main {
+  background-color: var(--bg-color);
+}
+header{
+  margin-top: -20px;
+  padding: 10px;
+  background-color: white;
+ color: var(--title-color);
+}
+#title{
+font-family: var(--title-font);
+}
+#sub-title{
+  color: var(--title-color);
+  font-weight: bold;
+}
+#img-div{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  border: solid 2px white
+}
+#image{
+  max-width: 80%;
+  margin: 0 auto;
+  width: auto;
+  height: auto;
+}
+#img-caption{
+  margin: 15px;
+}
+#img-caption p{
+  margin: 0 auto;
+  width: 70%;
+  justify-self: center;
+  border: solid white 2px;
+  color: var(--bg-color);
+  background-color: white;
+  font-style: italic;
+  padding: 10px;
+}
+
+#tribute-info{
+  width: 80%;
+  margin: 0 auto;
+}
+#headline{
+  text-align:center;
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-family: var(--heading-font);
+}
+ul{
+  max-width: 60%;
+  text-align: left;
+  margin: 0 auto;
+}
+ul li{
+/*   line-height: 30px; */
+  margin: 10px;
+  font-size: 1.3em;
+}
+blockquote p {
+  text-align: center;
+  font-size: 20px;
+  font-family:  var(--b-quote-font);
+}
+blockquote #author {
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-family: 'Satisfy', cursive;
+}
+#info{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 100;
+  font-family:  var(--b-quote-font);
+}
+#tribute-link{
+  color: HSL(0, 0%, 84%);
+  text-decoration: none;
+}
+#tribute-link:hover{
+  color: HSL(0, 20%, 84%);
+ text-decoration: underline;
+}
+
+/* Media  */
+@media(max-width: 600px){
+ #tribute-info{
+  width: 100%;
+  margin: 0 auto;
+}
+  
+}
+@media(max-width: 400px){
+  body{
+    margin: 0px 0px;
+  }
+#tribute-info{
+  width: 100%;
+  margin: 0 auto;
+}
+#headline{
+  text-align:center;
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-family: var(--heading-font);
+}
+ul{
+  max-width: 100%;
+  text-align: left;
+  margin: 0 auto;
+}
+ul li{
+/*   line-height: 30px; */
+/*   margin: 10px; */
+  font-size: 1.3em;
+}
+  
+}
+@media(max-width: 700px){
+  body{
+    margin: 0px 0px;
+  }
+#tribute-info{
+  width: 100%;
+  margin: 0 auto;
+}
+#headline{
+  text-align:center;
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-family: var(--heading-font);
+}
+ul{
+  max-width: 100%;
+  text-align: left;
+  margin: 0 auto;
+}
+ul li{
+/*   line-height: 30px; */
+/*   margin: 10px; */
+  font-size: 1.3em;
+}
+  blockquote p {
+  text-align: center;
+  font-size: 20px;
+  font-family:  var(--b-quote-font);
+}
+blockquote #author {
+  text-align: center;
+  font-size: 25px ;
+  letter-spacing: 2px;
+  font-family: 'Satisfy', cursive;
+}
+#info{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 100;
+  font-family:  var(--b-quote-font);
+}
+#tribute-link{
+  color: HSL(0, 0%, 84%);
+  text-decoration: none;
+}
+#tribute-link:hover{
+  color: HSL(0, 20%, 84%);
+ text-decoration: underline;
+}
+  
+}
+
+
+@media(max-width: 800px){
+  body{
+    margin: 0px 0px;
+  }
+#tribute-info{
+  width: 100%;
+  margin: 0 auto;
+}
+#headline{
+  text-align:center;
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-family: var(--heading-font);
+}
+ul{
+  max-width: 100%;
+  text-align: left;
+  margin: 0 auto;
+}
+ul li{
+/*   line-height: 30px; */
+/*   margin: 10px; */
+  font-size: 1.3em;
+}
+  blockquote p {
+  text-align: center;
+  font-size: 20px;
+  font-family:  var(--b-quote-font);
+}
+blockquote #author {
+  text-align: center;
+  font-size: 25px ;
+  letter-spacing: 2px;
+  font-family: 'Satisfy', cursive;
+}
+#info{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 100;
+  font-family:  var(--b-quote-font);
+}
+#tribute-link{
+  color: HSL(0, 0%, 84%);
+  text-decoration: none;
+}
+#tribute-link:hover{
+  color: HSL(0, 20%, 84%);
+ text-decoration: underline;
+}
+  
+}
